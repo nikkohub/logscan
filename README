@@ -1,3 +1,1 @@
-Run
-
-curl -L -O https://github.com/nikkohub/logscan/archive/refs/heads/main.zip && cd logscan-main/ && chmod +x log.sh && sh log.sh | grep Found
+curl -L -O https://github.com/nikkohub/logscan/archive/refs/heads/main.zip && unzip main.zip &&  cd logscan-main/ && chmod +x log.sh && sh log.sh | grep Found
