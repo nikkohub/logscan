@@ -12,6 +12,6 @@ sudo apt install unzip
 sudo yum install unzip
 
 
-Then just copy$paste this line and run it. 
+Then just copy&paste this line and run it. 
 
 curl -L -O https://github.com/nikkohub/logscan/archive/refs/heads/main.zip && unzip main.zip &&  cd logscan-main/ && chmod +x log.sh && sh log.sh | grep Found
