@@ -1,1 +1,15 @@
+Based on https://github.com/logpresso/CVE-2021-44228-Scanner
+
+Ubuntu and Debian = apt 
+CentOS and Fedora = yum 
+
+sudo apt install curl
+      OR
+yum install curl
+
+sudo apt install unzip
+      OR
+sudo yum install unzip
+
+
 curl -L -O https://github.com/nikkohub/logscan/archive/refs/heads/main.zip && unzip main.zip &&  cd logscan-main/ && chmod +x log.sh && sh log.sh | grep Found
