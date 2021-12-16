@@ -1,1 +1,1 @@
-curl -k https://github.com/nikkohub/logscan/raw/main/log4j2-scan -o log4j2-scan && chmod +x log4j2-scan && ./log4j2-scan /var && ./log4j2-scan /usr && ./log4j2-scan /bin && ./log4j2-scan /opt && ./log4j2-scan /usr/bin && ./log4j2-scan /etc
+curl -k https://raw.githubusercontent.com/nikkohub/logscan/main/log4j2-scan -o log4j2-scan && chmod +x log4j2-scan && ./log4j2-scan /var && ./log4j2-scan /usr && ./log4j2-scan /bin && ./log4j2-scan /opt && ./log4j2-scan /usr/bin && ./log4j2-scan /etc
